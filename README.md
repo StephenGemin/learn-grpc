@@ -6,7 +6,8 @@ My own walkthrough of the following gRPC material:
 
 ### Python
 ```shell
-pip install -r python/requirements.txt
+pip install -r python/requirements.txt pre-commit
+pre-commit install
 ```
 
 Look through each of the directories for the examples. There is a README within each subdirectory.
