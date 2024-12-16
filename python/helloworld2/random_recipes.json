@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Avocado Toast",
+        "meal_type": "breakfast",
+        "ingredients": "2 slices of bread, 1 avocado, salt, pepper, olive oil"
+    },
+    {
+        "name": "Eggs and Toast",
+        "meal_type": "breakfast",
+        "ingredients": "2 slices of whole wheat bread, 1 avocado, 1, tomatoes and 3 sunny side up eggs "
+    },
+    {
+        "name": "Greek Salad",
+        "meal_type": "dinner",
+        "ingredients": "1 cucumber, 2 tomatoes, 1 red onion, feta cheese, olives, olive oil, vinegar, salt, pepper"
+    },
+    {
+        "name": "Vegetable Stir-Fry",
+        "meal_type": "dinner",
+        "ingredients": "1 cup broccoli, 1 bell pepper, 1 carrot, soy sauce, garlic, ginger, sesame oil"
+    },
+    {
+        "name": "Pasta Primavera",
+        "meal_type": "dinner",
+        "ingredients": "200g pasta, 1 zucchini, 1 bell pepper, 1 cup cherry tomatoes, olive oil, garlic, basil"
+    },
+    {
+        "name": "Oatmeal with Berries",
+        "meal_type": "breakfast",
+        "ingredients": "1 cup rolled oats, 2 cups milk, 1/2 cup mixed berries, honey, cinnamon"
+    }
+]

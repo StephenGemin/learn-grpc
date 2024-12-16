@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package helloworld2;
+
+service HealthyRecipe {
+    rpc Breakfast (RecipeRequest) returns (Recipe) {}
+    rpc Dinner (RecipeRequest) returns (Recipe) {}
+}
+
+message RecipeRequest {}
+
+message Recipe {
+    string name = 1;
+    string ingredients = 2;
+    string meal_type = 3;
+}
+
+service WhatIsTheTime {
+    rpc Now (TimeRequest) returns (TimeStampReply) {}
+}
+
+message TimeStampReply {
+    string current_time = 1;
+}
+
+message TimeRequest {
+    string timezone = 1;
+}

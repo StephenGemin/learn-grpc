@@ -40,5 +40,8 @@ def serve():
 
 
 if __name__ == "__main__":
+    import os
+
+    os.environ["GRPC_VERBOSITY"] = "debug"
     logging.basicConfig()
     serve()
